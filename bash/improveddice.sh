@@ -21,5 +21,7 @@ die1=$(( RANDOM % $numSides + $bias))
 die2=$(( RANDOM % $numSides + $bias))
 # sum up the rolls
 sum=$(( die1 + die2 ))
+#Average the rolls
+average=$(awk "BEGIN{printf \"%.2f\", $sum/2}") #pulled from arithmetic demo
 # display the results
-echo "Rolled two $numSides dice and got $die1 and $die2 for a sum of $sum"
+echo "Rolled two $numSides sided dice and got $die1 and $die2 for a sum of $sum and an average of $average"
