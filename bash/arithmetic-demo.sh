@@ -9,7 +9,7 @@
 #   - first divided by second gives X with a remainder of Y
 # Improve this script by calculating and displaying the first number raised to the power of the second number
 
-read -p "pleas input two numbers: " firstNum secondNum
+read -p "pleas input two numbers seperated by a space: " firstNum secondNum
 sum=$(($firstNum + $secondNum))
 dividend=$(($firstNum / $secondNum))
 multiply=$(($firstNum * $secondNum))
