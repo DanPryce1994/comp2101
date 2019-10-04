@@ -18,3 +18,7 @@ $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled
 echo "Rolling 5 dice...
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1)), rolled
 "
+
+echo "Rolling d20...
+$(( RANDOM % 20 + 1)) rolled
+"
